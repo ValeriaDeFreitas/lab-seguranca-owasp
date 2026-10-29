@@ -1,0 +1,8 @@
+[tool.pytest.ini_options]
+markers = [
+    "security: testes de seguranca ofensiva e defensiva (OWASP)",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore:.*testclient.*:Warning",
+]
